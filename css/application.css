@@ -13,7 +13,7 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    /* TODO make the font color of all our headers #fffdf0 */
+    /* DONE---TODO make the font color of all our headers #fffdf0 */
     color: #fffdf0;
 }
 
@@ -24,27 +24,27 @@ h1, h2, h3, h4, h5, h6 {
 header {}
 
 header h1 {
-    /* TODO make the font size larger than Foundation's default; I uesd 4.5em */
+    /* DONE---TODO make the font size larger than Foundation's default; I uesd 4.5em */
     font-size: 4.5em;
-    /* TODO add a text-shadow on the h1 using rgba(34, 28, 18,.75) */
+    /* DONE---TODO add a text-shadow on the h1 using rgba(34, 28, 18,.75) */
     text-shadow: rgba(34, 28, 18,.75);
 }
 
 header .tagline h4 {
-    /* TODO make the tagline italic; you'll have to work hard to override Foundation's font-style: normal on all headers! */
+    /* DONE---TODO make the tagline italic; you'll have to work hard to override Foundation's font-style: normal on all headers! */
     font-style: italic;
     font-weight: 400;
-    /* TODO add the same text-shadow */
+    /* DONE---TODO add the same text-shadow */
     text-shadow: rgba(34, 28, 18,.75);
 }
 
 header .tagline {
-    /* TODO center the text */
+    /* DONE---TODO center the text */
     text-align: center;
     background: rgba(34, 28, 18,.5); /* I added this transparent background bar for you. */
-    /* TODO add some padding to give it space around the text */
-    padding: 5%;
-    /* TODO absolutely position the tagline bar at top: 35%. add a width so that it goes all the way across. */
+    /* DONE---TODO add some padding to give it space around the text */
+    padding: 1.5em;
+    /* DONE---TODO absolutely position the tagline bar at top: 35%. add a width so that it goes all the way across. */
     position: absolute;
     top: 35%;
     width: 100%;
@@ -70,7 +70,7 @@ section {
 /* ---------------------------------------------- */
 
 .address {
-    /* TODO give this section a background of #221c12 and a color of #fffdf0. make the text centered */
+    /* DONE---TODO give this section a background of #221c12 and a color of #fffdf0. make the text centered */
     background-color: #221c12;
     color: #fffdf0;
     text-align: center;
@@ -79,10 +79,19 @@ section {
 .location,
 .hours {
     /* TODO give these two divs some padding so that they line up with the map */
+    padding: .50em;
 }
 
-.hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ }
-.hours-value { /* TODO style these with the appropriate font styles (bold/italic) */ }
+.hours-label { 
+/* TODO style these with the appropriate font styles (bold/italic) */ 
+    font-family: "Bitter", serif;
+    font-style: bold;
+}
+.hours-value { 
+/* TODO style these with the appropriate font styles (bold/italic) */ 
+    font-family: "Bitter", serif;
+    font-style: italic;
+}
 
 
 
