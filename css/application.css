@@ -86,6 +86,7 @@ section {
 /* TODO style these with the appropriate font styles (bold/italic) */ 
     font-family: "Bitter", serif;
     font-style: bold;
+    font-weight: 400;
 }
 .hours-value { 
 /* TODO style these with the appropriate font styles (bold/italic) */ 
