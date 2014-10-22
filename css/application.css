@@ -117,8 +117,7 @@ section {
     text-align: center;
 }
 
-
-/* TODO center the text of the h2 and menu-section */
+/*DONE--- TODO center the text of the h2 and menu-section */
 
 .menu-section h3 a {
     text-align: center;
@@ -153,8 +152,16 @@ section {
 }
 /* TODO style the menu-item-dish to be bold */
 
+.menu-item-ingredients {
+    font-style: italic;
+}
 /* TODO style the menu-item-ingredients to be italic and be in one line with the price. You don't need to use Foundation classes to do this, but if you want to try and see, go for it! */
 
+.menu-item-price {
+    font-weight: bold;
+    opacity: .5;
+    padding-left: 1%;
+}
 /* TODO style the menu-item-price to be bold, 50% opacity, in line with the description but have some space to the left of it. */
 
 
