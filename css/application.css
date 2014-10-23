@@ -186,7 +186,6 @@ section {
     background-repeat: no-repeat;
     background-position: top;
     position: relative;
-  /*  background-position: top;*/
     /* TODO add the dark brown background color, and the background image symbols-bottom. Change the background-position so that the bottom of it shows (where the symbols start to fade out). */
     padding-bottom: 100px;
     padding-top: 400px;
