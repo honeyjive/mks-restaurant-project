@@ -81,7 +81,7 @@ section {
 
 .location,
 .hours {
-    /* NEED HELP ON THIS ONE----TODO give these two divs some padding so that they line up with the map */
+    /* DONE----TODO give these two divs some padding so that they line up with the map */
     padding: 5.6em;
 }
 
@@ -107,16 +107,16 @@ section {
     /* TODO give this section a color of #221c12 and a background of #fffdf0. give it some bottom padding so there's space below the text. */
     color: #221C12; 
     background-color: #fffdf0;
-    padding-bottom: 10px;
+    padding-bottom: 10em;
 }
 
 .menu h2 {
-    /* TODO make this font size larger than the Foundation default */
+    /*DONE TODO make this font size larger than the Foundation default */
     font-size: 2em;
 }
 
 .menu h2, .menu h3, .menu h4 {
-    /* TODO give these headers a color of #221c12 */
+    /*DONE TODO give these headers a color of #221c12 */
     color: #221c12;
     text-align: center;
 }
@@ -129,8 +129,8 @@ section {
     border-bottom: 3px;
     transition: color 0.5s ease;
     padding-bottom: 10px;
-    /* NEED HELP ON THESE------TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). give them a 3px bottom border and give it a bit of space */
-    /* NEED HELP ON THESE------TODO give the menu section links a CSS transition so that when you hover them, the color fades in slowly */
+    /* DONE-----TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). give them a 3px bottom border and give it a bit of space */
+    /* DONE_----TODO give the menu section links a CSS transition so that when you hover them, the color fades in slowly */
 }
 
 .menu-section-item:hover h3 a {
@@ -144,10 +144,12 @@ section {
 /* NEED HELP ON THESE------TODO on the ACTIVE menu section links, make them look the same as hovered ones. How do you know if they are active? */
 
 .menu-section-content {
+    padding-bottom: 200px;
     /* TODO give this some space below the menu links */
 }
 
 .menu-item {
+    margin-bottom: 25px;
     /* TODO give each menu item some bottom margin */
 }
 
@@ -164,7 +166,8 @@ section {
 .menu-item-price {
     font-weight: bold;
     opacity: .5;
-    padding-left: 1%;
+    padding-left: 10px;
+    display: inline;
 }
 /* TODO style the menu-item-price to be bold, 50% opacity, in line with the description but have some space to the left of it. */
 
