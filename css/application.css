@@ -49,6 +49,7 @@ header .tagline {
     top: 35%;
     width: 100%;
     /* TODO when you make the slideshow work, the tagline will get hidden. why? what line of CSS do you have to write to make it appear ABOVE the slideshow? */
+    z-index: +1;
 }
 
 
