@@ -79,6 +79,10 @@ section {
     text-align: center;
 }
 
+.street-address {
+    list-style-type: none;
+}
+
 .location,
 .hours {
     /* DONE----TODO give these two divs some padding so that they line up with the map */
