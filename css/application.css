@@ -86,7 +86,7 @@ section {
 .location,
 .hours {
     /* DONE----TODO give these two divs some padding so that they line up with the map */
-    padding: 5.6em;
+    padding: 4.5em;
 }
 
 .hours-label { 
