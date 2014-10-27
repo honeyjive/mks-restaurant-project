@@ -23,7 +23,7 @@ $(function() {
       event.preventDefault();
 
       // Assign the id of the clicked element (this) to a variable named id
-      var  = $( this );
+      var  = $( this ).attr('id');
 
       // Remove the class 'is-active' from all menu item headings
       $( '.menu-section-item' ).removeClass( 'is-active' );
@@ -34,10 +34,9 @@ $(function() {
 
       // Once you're started with TODO #2, call the getMenu function here,
       // passing id as the argument
-      getMenu('#dinner') {
-        console.log('working');
-      }
-        //HONEY's CMMT: IS THIS CORRECT WAY TO CALL THE FUNCTION?
+      getMenu(id) 
+
+       
     });
 
 
@@ -87,12 +86,12 @@ $(function() {
         // prints out each menu-item div
         for( var j = 0; j < json[i].content.length; j++ ) {
           // for each menu item in json[i].content, create a menu-item div
-          html += '<div class="menu-item">';
+          html += '<div class="menu-item clearfix">';
           // inside each menu-item div, create a div for dish, ingredients, and price
           // add json[i]content[j].THING where THING is dish, ingredient, price.
-          html += '<div class="menu-item-dish">' + json[i].content[j]. + '</div>';
-          html += '<p class="menu-item-ingredients">' + json[i].content[j]. + '</p>';
-          html += '<div class="menu-item-price">' + json[i].content[j]. + '</div>';
+          html += '<div class="menu-item-dish">' + json[i].content[j].dish + '</div>';
+          html += '<p class="menu-item-ingredients">' + json[i].content[j].ingredients + '</p>';
+          html += '<div class="menu-item-price">' + json[i].content[j].price + '</div>';
           html += '</div>';
         }
 
@@ -104,7 +103,7 @@ $(function() {
     }
 
 
-    //HONEY'S CMMT: I UNDERSTAND I HAVE TO APPEND my ".is-active" class, but still unsure how to call the getMenu
+    getMenu('dinner')
     // TODO #4 Call getMenu with a menu of your choice and set that menu's
     // header to active so that a menu is loaded with the page by default
 
