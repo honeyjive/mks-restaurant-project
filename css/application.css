@@ -90,13 +90,13 @@ section {
 }
 
 .hours-label { 
-/* NEED HELP ON THIS ONE----TODO style these with the appropriate font styles (bold/italic) */ 
+/* DONE----TODO style these with the appropriate font styles (bold/italic) */ 
     font-family: "Bitter", serif;
     font-weight: bold;
 }
 
 .hours-value { 
-/* NEED HELP ON THIS ONE----TODO style these with the appropriate font styles (bold/italic) */ 
+/* DONE----TODO style these with the appropriate font styles (bold/italic) */ 
     font-family: "Bitter", serif;
     font-style: italic;
 }
@@ -110,7 +110,7 @@ section {
 /* ---------------------------------------------- */
 
 .menu {
-    /* TODO give this section a color of #221c12 and a background of #fffdf0. give it some bottom padding so there's space below the text. */
+    /* DONE ----TODO give this section a color of #221c12 and a background of #fffdf0. give it some bottom padding so there's space below the text. */
     color: #221C12; 
     background-color: #fffdf0;
     padding-bottom: 10em;
@@ -144,19 +144,23 @@ section {
     border-bottom: 3px #221c12;
 }
 
+.menu-section-item:active h3 a {
+    color: rgba(34, 28, 18, 1);
+    border: 3px #221c12;
+}
 
-/* NEED HELP ON THESE------TODO on the menu section links, when hovered, make them the same color but 100% opacity instead of 75% (.75) and make the bottom border the same color. */
+/* NEED TO MAKE BORDER SHOW-----TODO on the menu section links, when hovered, make them the same color but 100% opacity instead of 75% (.75) and make the bottom border the same color. */
 
-/* NEED HELP ON THESE------TODO on the ACTIVE menu section links, make them look the same as hovered ones. How do you know if they are active? */
+/* NEED TO MAKE BORDER SHOW------TODO on the ACTIVE menu section links, make them look the same as hovered ones. How do you know if they are active? */
 
 .menu-section-content {
     padding-bottom: 200px;
-    /* TODO give this some space below the menu links */
+    /*DONE ---TODO give this some space below the menu links */
 }
 
 .menu-item {
     margin-bottom: 25px;
-    /* TODO give each menu item some bottom margin */
+    /*DONE ---TODO give each menu item some bottom margin */
 }
 
 .menu-item-dish {
