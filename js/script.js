@@ -5,7 +5,7 @@ $(function() {
 
     // Note: my menu section headings look like this:
     //
-    // <div class="menu-section">
+    // <div class="menu-section"> HONEY'S CMMT: THERE IS NO MENU-SECTION
     //   <h3>
     //     <a href="#" class="menu-section-item" id="dinner">
     //       Dinner
@@ -16,6 +16,8 @@ $(function() {
     // I've given all of the anchors the same class so that I can easily target
     // all of them with jQuery
 
+    //HONEY'S COMMENTS -- Does this mean TODO #1 has been done for us?
+
     $( document ).on( 'click', '.menu-section-item', function( event ) {
       // Prevent the default action of the event
       event.preventDefault();
@@ -24,15 +26,18 @@ $(function() {
       var  = $( this );
 
       // Remove the class 'is-active' from all menu item headings
-      $( '' ).removeClass( '' );
+      $( '.menu-section-item' ).removeClass( 'is-active' );
 
       // Add 'is-active' to this specific action that was clicked (this). is-active
       // provides the visual cue for what's active via CSS
-      $( this ).addClass( '' );
+      $( this ).addClass( 'is-active' );
 
       // Once you're started with TODO #2, call the getMenu function here,
       // passing id as the argument
-
+      getMenu('#dinner') {
+        console.log('working');
+      }
+        //HONEY's CMMT: IS THIS CORRECT WAY TO CALL THE FUNCTION?
     });
 
 
@@ -63,13 +68,14 @@ $(function() {
 
 
     // TODO #3 Create a function, populateMenu, to add a menu to the DOM
+    // HONEY'S CMMT: VERY VERY CONFUSED ABOUT ALL OF THIS.
 
     function populateMenu( json ) {
       html = '';
 
       // start a for loop that iterates through json.length
       // add json.length into this for loop code
-      for( var i = 0; i < ; i++ ){
+      for( var i = 0; i < json.length; i++ ){
         // wrap each section in a menu-group div
         html += '<div class="menu-group columns small-12 medium-4">';
         // append inside the menu-group div a h4 with the json section name in it
@@ -98,7 +104,7 @@ $(function() {
     }
 
 
-
+    //HONEY'S CMMT: I UNDERSTAND I HAVE TO APPEND my ".is-active" class, but still unsure how to call the getMenu
     // TODO #4 Call getMenu with a menu of your choice and set that menu's
     // header to active so that a menu is loaded with the page by default
 
