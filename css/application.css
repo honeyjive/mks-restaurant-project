@@ -155,6 +155,7 @@ section {
 
 .menu-section-content {
     padding-bottom: 200px;
+    padding-top: 20px;
     /*DONE ---TODO give this some space below the menu links */
 }
 
