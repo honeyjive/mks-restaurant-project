@@ -173,11 +173,15 @@ section {
 }
 /* TODO style the menu-item-ingredients to be italic and be in one line with the price. You don't need to use Foundation classes to do this, but if you want to try and see, go for it! */
 
+.menu-item-ingredients,
+.menu-item-price {
+    display: inline;
+}
+
 .menu-item-price {
     font-weight: bold;
     opacity: .5;
-    padding-left: 10px;
-    display: inline;
+    padding-left: 7px;
 }
 /* TODO style the menu-item-price to be bold, 50% opacity, in line with the description but have some space to the left of it. */
 
@@ -195,7 +199,7 @@ section {
     background-image: url("../images/symbols-bottom.png");
     background-repeat: no-repeat;
     background-position: top;
-    position: relative;
+    /*position: relative;*/
     /* TODO add the dark brown background color, and the background image symbols-bottom. Change the background-position so that the bottom of it shows (where the symbols start to fade out). */
     padding-bottom: 100px;
     padding-top: 400px;

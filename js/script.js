@@ -23,7 +23,7 @@ $(function() {
       event.preventDefault();
 
       // Assign the id of the clicked element (this) to a variable named id
-      var  = $( this ).attr('id');
+      var id = $( this ).attr('id');
 
       // Remove the class 'is-active' from all menu item headings
       $( '.menu-section-item' ).removeClass( 'is-active' );
@@ -34,7 +34,7 @@ $(function() {
 
       // Once you're started with TODO #2, call the getMenu function here,
       // passing id as the argument
-      getMenu(id) 
+      getMenu(id);
 
        
     });
@@ -56,7 +56,7 @@ $(function() {
 
     function getMenu( course ) {
      // Use `$.getJSON` to get the menu for whatever menu heading was clicked
-     $.getJSON( './json/menu-' + course + '.json', function( json ) {
+     $.getJSON( 'json/menu-' + course + '.json', function( json ) {
        populateMenu( json );
        // Once you're started with TODO #3, call the populateMenu function here
        // and pass json as the argument
@@ -103,7 +103,7 @@ $(function() {
     }
 
 
-    getMenu('dinner')
+    getMenu('dinner');
     // TODO #4 Call getMenu with a menu of your choice and set that menu's
     // header to active so that a menu is loaded with the page by default
 
