@@ -207,8 +207,10 @@ section {
     padding: 50px;
 }
 
-.social-links {
+.social-links a {
     opacity: .5;
+    display: inline;
+    padding: 5px;
 }
 
 .social-links:hover {
