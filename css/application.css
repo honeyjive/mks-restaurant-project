@@ -118,7 +118,8 @@ section {
 
 .menu h2 {
     /*DONE TODO make this font size larger than the Foundation default */
-    font-size: 2em;
+    font-size: 3em;
+    padding: 15px;
 }
 
 .menu h2, .menu h3, .menu h4 {
@@ -141,17 +142,17 @@ section {
 
 .menu-section-item:hover h3 a {
     color:rgba(34, 28, 18, 1);
-    border-bottom: 3px #221c12;
+    border-bottom: 3px solid #221c12;
 }
 
 .is-active h3 a {
     color: rgba(34, 28, 18, 1);
-    border: 3px #221c12;
+    border-bottom: 3px solid #221c12;
 }
 
-/* NEED TO MAKE BORDER SHOW-----TODO on the menu section links, when hovered, make them the same color but 100% opacity instead of 75% (.75) and make the bottom border the same color. */
+/* DONE-----TODO on the menu section links, when hovered, make them the same color but 100% opacity instead of 75% (.75) and make the bottom border the same color. */
 
-/* NEED TO MAKE BORDER SHOW------TODO on the ACTIVE menu section links, make them look the same as hovered ones. How do you know if they are active? */
+/* DONE-----TODO on the ACTIVE menu section links, make them look the same as hovered ones. How do you know if they are active? */
 
 .menu-section-content {
     padding-bottom: 200px;
