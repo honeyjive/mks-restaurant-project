@@ -219,7 +219,17 @@ section {
     padding: .3em;
 }
 
-.social-links:hover {
+.social-links:hover a:hover {
     opacity: 1;
 }
 /* TODO make the .social-links links be displayed in a row with some space between them. make them 50% opacity, and fade to 100% opacity when you hover over them. */
+
+/*                           */
+/*-------MEDIA QUERIES-------*/
+/*                           */
+
+/*removes the transparent tagline as well as the map*/
+@media all and (max-width: 700px) {
+    .tagline { display: none; }
+    .map { display: none; }
+}
