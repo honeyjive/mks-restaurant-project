@@ -119,7 +119,7 @@ section {
 .menu h2 {
     /*DONE TODO make this font size larger than the Foundation default */
     font-size: 3em;
-    padding: 15px;
+    padding: .938em;
 }
 
 .menu h2, .menu h3, .menu h4 {
@@ -133,21 +133,21 @@ section {
 .menu-section-item h3 a {
     text-align: center;
     color: rgba(34, 28, 18, .75);
-    border-bottom: 3px;
+    border-bottom: .1875em;
     transition: color 0.5s ease;
-    padding-bottom: 10px;
+    padding-bottom: .625em;
     /* DONE-----TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). give them a 3px bottom border and give it a bit of space */
     /* DONE_----TODO give the menu section links a CSS transition so that when you hover them, the color fades in slowly */
 }
 
 .menu-section-item:hover h3 a {
     color:rgba(34, 28, 18, 1);
-    border-bottom: 3px solid #221c12;
+    border-bottom: .1875em solid #221c12;
 }
 
 .is-active h3 a {
     color: rgba(34, 28, 18, 1);
-    border-bottom: 3px solid #221c12;
+    border-bottom: .1875em solid #221c12;
 }
 
 /* DONE-----TODO on the menu section links, when hovered, make them the same color but 100% opacity instead of 75% (.75) and make the bottom border the same color. */
@@ -183,7 +183,7 @@ section {
 .menu-item-price {
     font-weight: bold;
     opacity: .5;
-    padding-left: 7px;
+    padding-left: .44em;
 }
 /* TODO style the menu-item-price to be bold, 50% opacity, in line with the description but have some space to the left of it. */
 
@@ -203,20 +203,20 @@ section {
     background-position: top;
     /*position: relative;*/
     /* TODO add the dark brown background color, and the background image symbols-bottom. Change the background-position so that the bottom of it shows (where the symbols start to fade out). */
-    padding-bottom: 100px;
-    padding-top: 400px;
+    padding-bottom: 6.25em;
+    padding-top: 25em;
     /* TODO add some top and bottom padding so that the content doesn't overlap the background image. Note how the padding changes the location of the background image. */
 }
 .contact .row{
 /*    position: absolute;*/
     bottom: 0;
-    padding: 50px;
+    padding: 3em;
 }
 
 .social-links a {
     opacity: .5;
     display: inline;
-    padding: 5px;
+    padding: .3em;
 }
 
 .social-links:hover {
