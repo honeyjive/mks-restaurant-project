@@ -229,7 +229,7 @@ section {
 /*                           */
 
 /*removes the transparent tagline as well as the map*/
-@media all and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .tagline { display: none; }
     .map { display: none; }
 }
